@@ -15,7 +15,6 @@ ENV SERVER_SAVE_INTERVAL=1800
 ENV SERVER_BACKUPS=4
 ENV SERVER_BACKUP_SHORT=7200
 ENV SERVER_BACKUP_LONG=43200
-ENV MODIFIERS="-modifier deathpenalty casual -modifier raids muchless -modifier resources muchmore"
 
 WORKDIR /root
 
