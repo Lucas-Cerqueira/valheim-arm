@@ -93,7 +93,6 @@ $runx64 ./valheim_server.x86_64 \
     -backuplong $SERVER_BACKUP_LONG \
     -savedir ${PERSISTENT} \
     ${CROSSPLAY_FLAG:+"$CROSSPLAY_FLAG"} \
-    ${MODIFIERS:+$MODIFIERS} \
     -nographics  \
     -batchmode \
     2>&1 | tee -a ${LOG_FILE} &
